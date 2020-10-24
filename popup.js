@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
   var selected = document.getElementById("select_image");
   var selectedImage = selected.options[selected.selectedIndex].value;
+  console.log(selectedImage)
   let message = {
   txt: "Hello",
   selectedImage: selectedImage
